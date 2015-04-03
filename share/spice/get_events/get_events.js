@@ -8,7 +8,7 @@
     function getAddress(obj) {
         var address = [];
         $.each(obj, function(k,v){
-            if (v.length){
+            if (k !== "country" && v.length){
                 address.push(v);
             }
         });

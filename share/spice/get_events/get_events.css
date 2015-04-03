@@ -37,3 +37,7 @@
     height: 4em;
     overflow: hidden;
 }
+
+.tile--get_events__main .tile__foot {
+    white-space: normal;
+}
